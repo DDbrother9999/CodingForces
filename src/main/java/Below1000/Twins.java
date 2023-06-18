@@ -15,8 +15,8 @@ public class Twins {
         }
         Arrays.sort(number);
         int sum = 0;
-        for (int d = 0; d < number.length; d++) {
-            sum += number[d];
+        for (int j : number) {
+            sum += j;
         }
         sum = sum/2;
         int fin = 0;
