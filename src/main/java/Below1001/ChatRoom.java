@@ -14,6 +14,5 @@ public class ChatRoom {
         else {
             System.out.println("NO");
         }
-
     }
 }
