@@ -1,12 +1,12 @@
-//package Below1000;
-import java.util.regex.*;
-import java.util.Scanner;
+//package Below1001;
 
-public class Football {
+import java.util.*;
+import java.util.regex.*;
+public class HQ9 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String line = input.nextLine();
-        Pattern pattern = Pattern.compile("(0{7})|(1{7})");
+        Pattern pattern = Pattern.compile("[HQ9]");
         Matcher matcher = pattern.matcher(line);
         if (matcher.find()){
             System.out.println("YES");
@@ -14,5 +14,6 @@ public class Football {
         else {
             System.out.println("NO");
         }
+
     }
 }
